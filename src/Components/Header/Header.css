@@ -1,0 +1,26 @@
+.navbar{
+    background-color: rgb(136, 21, 144);
+
+}
+.link {
+    display: inline-block;
+    position: relative;
+  }
+   .link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #f3ff9b;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
